@@ -1,7 +1,7 @@
 trigger: none
 
 pool:
-  vmimage: windows-2019
+  vmimage: windows-latest
 
 variables:
 - group: jira-azuredevops-migrator-smoke-tests
