@@ -289,7 +289,7 @@ namespace JiraExport
 
         private static string ReplaceAzdoInvalidCharacters(string inputString)
         {
-            return Regex.Replace(inputString, "[/$?*:\"&<>#%|+]", "", RegexOptions.None, TimeSpan.FromMilliseconds(100));
+            return Regex.Replace(inputString, "[/$?*:\"&<>#%|+]\t", "", RegexOptions.None, TimeSpan.FromMilliseconds(100));
         }
     }
 
